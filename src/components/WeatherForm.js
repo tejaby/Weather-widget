@@ -16,7 +16,6 @@ function WeatherForm({ getCity }) {
       <form className={style.form} onSubmit={handleSubmit}>
         <input
           onChange={(e) => setCity(e.target.value)}
-          className="inputCity"
           placeholder="ciudad"
           autoFocus
           className={style.input}

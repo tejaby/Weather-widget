@@ -8,12 +8,8 @@
   background-blend-mode: screen;
 }
 
-.imageOverflow {
+.image-overflow {
   overflow: hidden;
-}
-
-.image:hover {
-  transform: scale(1.1);
 }
 
 .ico {
@@ -21,9 +17,31 @@
 }
 
 .temp {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .negrita {
   font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .image {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .image:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
 }

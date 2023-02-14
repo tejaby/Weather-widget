@@ -23,7 +23,7 @@ function WeatherCard({ weather, loading, show }) {
   return (
     <>
       {show ? (
-        <div className="card" style={{ maxWidth: "540px" }}>
+        <div className="card mb-5" style={{ maxWidth: "540px" }}>
           <div className="row g-0">
             <div className="col-sm-4 d-flex image-overflow">
               <img

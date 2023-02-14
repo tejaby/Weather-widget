@@ -41,7 +41,7 @@ function WeatherApp() {
     } catch (error) {
       setLoading(false);
       setShow(false);
-      console.log(error);
+      console.log(error.statusText);
     }
   };
 
